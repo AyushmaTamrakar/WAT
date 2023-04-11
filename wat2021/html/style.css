@@ -1,0 +1,91 @@
+html {
+  background-color: #3d3e5d;
+  overflow: hidden;
+  font-family: "Helvetica", Times, serif;
+}
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 8px;
+  width: 70vw;
+}
+.box1 {
+  background-image: url("web.jpg");
+  object-fit: cover;
+}
+.caps {
+  font-size: 3.4rem;
+  line-height: 1.8em;
+}
+
+.txt {
+  color: #fff;
+  font-weight: 900;
+  padding-left: 34px;
+  letter-spacing: 1.5px;
+}
+.box2 {
+  background-color: #f16e50;
+  color: #fff;
+}
+.box2 h1 {
+  padding-left: 20px;
+}
+ul li {
+  list-style: square;
+  color: #fff;
+  list-style-position: inside;
+  margin-left: -25px;
+}
+ul li a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.box3 {
+  background-color: #feb45d;
+  color: #fff;
+  padding: 30px;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.side {
+  text-align: right;
+  margin-top: -9px;
+  font-style: italic;
+}
+.caps1 {
+  font-size: 4rem;
+}
+.bottom {
+  text-align: end;
+}
+.box4 {
+  background-color: #14b2a3;
+  color: #fff;
+  padding: 20px;
+}
+.box4 h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+table {
+  width: 100%;
+}
+table th {
+  text-align: left;
+  border-bottom: #fff solid 1px;
+}
+.box5 {
+  background-color: #f6f6f6;
+  grid-column: 2/4;
+  padding: 5px 30px 30px;
+  /* padding-bottom: 20px; */
+}
+.box5 label {
+  font-weight: bold;
+  font-size: large;
+}
